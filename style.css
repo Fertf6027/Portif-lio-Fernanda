@@ -1,0 +1,565 @@
+@font-face{
+    font-family: 'Spartan';
+    src: url('LeagueSpartan-VariableFont_wght.ttf') format('truetype');
+}
+body{
+    background-color: #DFDFDF;
+    margin: 0px;
+    max-width: 1200px;
+}
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+.TOPO{
+    position: relative;
+}
+.menu{
+    text-align: justify;
+    position: relative;
+}
+.menu h2{
+    position: absolute;
+    top: -410px;
+    left: -230px;
+    color: #DFDFDF;
+    font-family: 'Libre Basker', serif;
+    font-size: 300px;
+    font-weight: bold;
+    text-shadow: 
+        -1px -1px 0 #000,
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000,
+        -1px  0px 0 #000,
+         1px  0px 0 #000,
+         0px -1px 0 #000,
+         0px  1px 0 #000; 
+    z-index: 0;
+
+}
+.bcc{
+    position: absolute;
+    padding: 5px;
+    top: -8px;
+    left: -80px;
+    border-radius: 10px;
+    z-index: 1;
+}
+.menu a{
+    background-color: #DFDFDF;
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+    font-family: 'Buycat', sans-serif;
+    margin: 0;
+    top: 45px;
+    left: 20%;
+    margin-left: 80px;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 10px;
+    z-index: 1;
+}
+.bcc a{
+    font-family: 'Spartan',serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.nome{
+    position: absolute;
+    top: 300px;
+    left: 150px;
+}
+.nome p, .nomeMatematica p{
+    font-family: 'Spartan',serif;
+    font-size: 90px;
+    font-weight: 700;
+
+    margin: 0;
+    line-height: 1;
+}
+.nomeMatematica{
+    position: absolute;
+    top: 180px;
+    left: 100px;
+    z-index: 2;
+}
+.imagemZeros{
+    position: absolute;
+    left: 1050px;
+    top: 180px;
+    z-index: 2;
+}
+.imagemMulhe{
+    position: absolute;
+    left: 750px;
+    top: 250px;
+    z-index: 3;
+}
+.circulo{
+    position: absolute;
+    background-color: #DFDFDF;
+    border: 2px solid #000;
+    border-radius: 100%;
+    width: 350px;
+    height: 350px;
+    left: 900px;
+    top: 150px;
+    z-index: 0;
+}
+.fundoBaixo h2{
+    position: absolute;
+    top: 250px;
+    left: -1430px;
+    color: #DFDFDF;
+    font-family: 'Libre Basker', serif;
+    font-size: 300px;
+    font-weight: bold;
+    text-shadow: 
+        -1px -1px 0 #000,
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000,
+        -1px  0px 0 #000,
+         1px  0px 0 #000,
+         0px -1px 0 #000,
+         0px  1px 0 #000; 
+    z-index: 0;
+}
+.fundoBaixoCriativa h2{
+    position: absolute;
+    top: 250px;
+    left: -400px;
+    color: #DFDFDF;
+    font-family: 'Libre Basker', serif;
+    font-size: 300px;
+    font-weight: bold;
+    text-shadow: 
+        -1px -1px 0 #000,
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000,
+        -1px  0px 0 #000,
+         1px  0px 0 #000,
+         0px -1px 0 #000,
+         0px  1px 0 #000; 
+    z-index: 0;
+}
+.fundoBaixoFilosofia h2{
+    position: absolute;
+    top: 250px;
+    left: -550px;
+    color: #DFDFDF;
+    font-family: 'Libre Basker', serif;
+    font-size: 300px;
+    font-weight: bold;
+    text-shadow: 
+        -1px -1px 0 #000,
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000,
+        -1px  0px 0 #000,
+         1px  0px 0 #000,
+         0px -1px 0 #000,
+         0px  1px 0 #000; 
+    z-index: 0;
+}
+.fundoBaixoCiberfisicos h2{
+    position: absolute;
+    top: 250px;
+    left: -1100px;
+    color: #DFDFDF;
+    font-family: 'Libre Basker', serif;
+    font-size: 300px;
+    font-weight: bold;
+    text-shadow: 
+        -1px -1px 0 #000,
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000,
+        -1px  0px 0 #000,
+         1px  0px 0 #000,
+         0px -1px 0 #000,
+         0px  1px 0 #000; 
+    z-index: 0;
+}
+.imagensCima {
+    display: flex;
+    top: 900px;
+    left: 140px;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+}
+.imagensBaixo{
+    display: flex;
+}
+.imagemAlgoritmo{
+    display: flex;
+    top: 900px;
+    left: 140px;
+    margin-left: 250px;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+}
+.imagemMatematica{
+    display: flex;
+    top: 900px;
+    left: 450px;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+}
+.rodape{
+    position: absolute;
+    top: 1700px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Spartan',serif;
+}
+.linhaRodape{
+    position: relative;
+    border-top: 3px solid black;
+    margin: 20px 0;
+    width: 400px;
+    top: -250px;
+    left: 550px;
+
+}
+.circuloRodape{
+    position: relative;
+    left: 300px;
+    align-items: center;
+    height: 450px;
+    width: 900px;
+    border-radius: 450px 450px 0 0;
+    background-color: #DFDFDF;
+    border: 2px solid #000;
+}
+.rodapeEscrita{
+    position: absolute;
+    left: 650px;
+    top: 150px;
+}
+.rodapeEscrita h3{
+    position: relative;
+    left: 70px;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Spartan',serif;
+}
+.rodapeEscrita p{
+    position: relative;
+    top: 50px;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Spartan',serif;
+}
+.conteúdo{
+    position: relative;
+    top: 800px;
+    left: 10px;
+
+}
+.allProjeto1 h2, .allProjeto2 h2, .allProjeto3 h2{
+    font-family: 'Spartan',serif;
+    font-size: 30px;
+}
+.linhaProjeto01, .linhaProjeto02, .linhaProjeto03{
+    position: relative;
+    border-top: 3px solid black;
+    margin: 20px 0;
+    left: -10px;
+    width: 500px;
+}
+.projeto1, .projeto2, .projeto3{
+    position: absolute;
+    background-color: #CFCFCF;
+    width: 1300px;
+    height: 500px;
+    left: 50px;
+    border: 2px solid #000;
+    border-radius: 20px;
+}
+.projeto1texto, .projeto2texto, .projeto3texto{
+    position: absolute;
+    top: 35px;
+    left: 20px;
+    width: 600px;
+    text-align: justify;
+    font-family: 'Spartan',serif;
+    font-size: 20px;
+}
+.projeto1texto h3, .projeto2texto h3, .projeto3texto h3{
+    position: relative;
+    text-align: center;
+}
+.projeto1Imagens {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens se quebrem em múltiplas linhas */
+    gap: 20px; /* Define o espaçamento entre as imagens */
+    width: 100%; /* Define a largura do contêiner */
+    justify-content: center; /* Centraliza as imagens no contêiner */
+    top: 10px;
+    left: 660px;
+}
+
+.projeto1Imagens figure {
+    width: calc(50% - 20px); /* Cada figura ocupa aproximadamente 50% da largura do contêiner menos o espaçamento */
+    margin: 0; /* Remove margem padrão */
+    box-sizing: border-box; /* Inclui o padding e border no total width e height */
+    text-align: center; /* Centraliza o texto da legenda */
+}
+
+.projeto1Imagens img {
+    width: 100%; /* A imagem ocupa 100% da largura da figura */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.projeto1Imagens figcaption {
+    margin-top: 8px; /* Espaço entre a imagem e a legenda */
+    font-size: 18px; /* Tamanho da fonte da legenda */
+    color: #333; /* Cor da legenda */
+    font-family: 'Spartan', serif; /* Fonte da legenda */
+}
+.allProjeto2{
+    position: absolute;
+    top: 600px;
+}
+.allProjeto2 h2{
+    font-family: 'Spartan',serif;
+    font-size: 30px;
+    
+}
+.linhaProjeto02{
+    position: relative;
+    border-top: 3px solid black;
+    margin: 20px 0;
+    left: -10px;
+    width: 500px;
+}
+.projeto2video{
+    position: absolute;
+    margin-top: -150px;
+    left: 650px;
+}
+.allProjeto3{
+    position: absolute;
+    top: 1220px;
+}
+.allProjeto3 h2{
+    font-family: 'Spartan',serif;
+    font-size: 30px;
+}
+.linhaProjeto03{
+    position: relative;
+    border-top: 3px solid black;
+    margin: 20px 0;
+    left: -10px;
+    width: 500px;
+}
+.projeto3Imagem img{
+    position: relative;
+    top: -150px;
+    left: 680px;
+}
+.rodapeCriativa{
+    position: absolute;
+    top: 2900px;
+}
+.filosofiaSeminario{
+    position: absolute;
+    top: 900px;
+}
+.filosofiaSeminario h2{
+    position: relative;
+    font-family: 'Spartan',serif;
+    font-size: 30px;
+    left: 10px;
+}
+.linhaFilosofiaSeminario {
+    position: relative;
+    border-top: 3px solid black;
+    margin: 20px 0;
+    left: -10px;
+    width: 500px;
+}
+.filosofiaSeminarioCaixa{
+    position: absolute;
+    background-color: #CFCFCF;
+    width: 1300px;
+    height: 500px;
+    left: 50px;
+    border: 2px solid #000;
+    border-radius: 20px;
+}
+.filosofiaSeminariotexto{
+    position: absolute;
+    top: 35px;
+    left: 20px;
+    width: 600px;
+    text-align: justify;
+    font-family: 'Spartan',serif;
+    font-size: 20px;
+}
+.filosofiaSeminariotexto h3{
+    position: relative;
+    text-align: center;
+}
+.filosofiaSeminarioImagem, .ciberfisicosSeminarioImagem, .algoritimoSeminarioImagem, .matematicaSeminarioImagem2{
+    position: absolute;
+    top: 0px;
+    left: 850px;
+}
+.rodapeFilosofia{
+    position: absolute;
+    top: 1800px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Spartan',serif;
+}
+.ciberfisicosSeminario{
+    position: absolute;
+    top: 900px;
+}
+.ciberfisicosSeminario h2{
+    position: relative;
+    font-family: 'Spartan',serif;
+    font-size: 30px;
+    left: 10px;
+}
+.linhaCiberfisicosSeminario {
+    position: relative;
+    border-top: 3px solid black;
+    margin: 20px 0;
+    left: -10px;
+    width: 500px;
+}
+.ciberfisicosSeminarioCaixa{
+    position: absolute;
+    background-color: #CFCFCF;
+    width: 1300px;
+    height: 500px;
+    left: 50px;
+    border: 2px solid #000;
+    border-radius: 20px;
+}
+.ciberfisicosSeminariotexto{
+    position: absolute;
+    top: 35px;
+    left: 20px;
+    width: 600px;
+    text-align: justify;
+    font-family: 'Spartan',serif;
+    font-size: 20px;
+}
+.ciberfisicosSeminariotexto h3{
+    position: relative;
+    text-align: center;
+}
+.ciberfisicosSeminarioImagem{
+    position: absolute;
+    top: 50px;
+    left: 650px;
+}
+.algoritimoSeminario{
+    position: absolute;
+    top: 900px;
+}
+.algoritimoSeminario h2{
+    position: relative;
+    font-family: 'Spartan',serif;
+    font-size: 30px;
+    left: 10px;
+}
+.linhaAlgoritimoSeminario{
+    position: relative;
+    border-top: 3px solid black;
+    margin: 20px 0;
+    left: -10px;
+    width: 600px;
+}
+.algoritimoSeminarioCaixa{
+    position: absolute;
+    background-color: #CFCFCF;
+    width: 1300px;
+    height: 500px;
+    left: 50px;
+    border: 2px solid #000;
+    border-radius: 20px;
+}
+.algoritimoSeminariotexto{
+    position: absolute;
+    top: 35px;
+    left: 20px;
+    width: 600px;
+    text-align: justify;
+    font-family: 'Spartan',serif;
+    font-size: 20px;
+}
+.algoritimoSeminariotexto h3{
+    position: relative;
+    text-align: center;
+}
+
+
+
+.matematicaSeminario{
+    position: absolute;
+    top: 900px;
+}
+.matematicaSeminario h2, .matematicaSeminario2 h2{
+    position: relative;
+    font-family: 'Spartan',serif;
+    font-size: 30px;
+    left: 10px;
+}
+.linhaMatematicaSeminario{
+    position: relative;
+    border-top: 3px solid black;
+    margin: 20px 0;
+    left: -10px;
+    width: 600px;
+}
+.matematicaSeminarioCaixa{
+    position: absolute;
+    background-color: #CFCFCF;
+    width: 1300px;
+    height: 500px;
+    left: 50px;
+    border: 2px solid #000;
+    border-radius: 20px;
+}
+.matematicaSeminariotexto{
+    position: absolute;
+    top: 35px;
+    left: 20px;
+    width: 600px;
+    text-align: justify;
+    font-family: 'Spartan',serif;
+    font-size: 20px;
+}
+.matematicaSeminariotexto h3{
+    position: relative;
+    text-align: center;
+}
+.matematicaSeminarioImagem{
+    position: absolute;
+    top: 10px;
+    left: 700px;
+}
+.matematicaSeminario2{
+    position: absolute;
+    top: 1500px;
+}
+.rodapeMatematica{
+    position: absolute;
+    top: 2400px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Spartan',serif;
+}
